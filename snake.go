@@ -18,46 +18,40 @@ type Snake struct {
 	*tl.Entity
 	prevX     int
 	prevY     int
-	started   bool
+	velocity  int // milliseconds
 	direction chan string
 }
 
+// Snake constructor
 func newSnake(x int, y int) Snake {
 	directionChan := make(chan string)
-	snake := Snake{tl.NewEntity(x, y, 2, 2), x, y, false, directionChan}
-	go snake.Start()
+	snake := Snake{tl.NewEntity(x, y, 2, 2), x, y, 200, directionChan}
+	go snake.start()
 	return snake
 }
 
+// Tick function with keyboard events
 func (snake *Snake) Tick(event tl.Event) {
 	if event.Type == tl.EventKey { // Is it a keyboard event?
 		snake.prevX, snake.prevY = snake.Position()
 		switch event.Key { // If so, switch on the pressed key.
 		case tl.KeyArrowRight:
-			snake.Advance(DirectionRight)
+			snake.advance(DirectionRight)
 		case tl.KeyArrowLeft:
-			snake.Advance(DirectionLeft)
+			snake.advance(DirectionLeft)
 		case tl.KeyArrowUp:
-			snake.Advance(DirectionUp)
+			snake.advance(DirectionUp)
 		case tl.KeyArrowDown:
-			snake.Advance(DirectionDown)
+			snake.advance(DirectionDown)
 		}
 	}
 }
 
-// func (snake *Snake) Size() (int, int) {
-// 	return snake.Size()
-// }
-
-// func (snake *Snake) Position() (int, int) {
-// 	return snake.Position()
-// }
-
-func (snake *Snake) Advance(direction string) {
+func (snake *Snake) advance(direction string) {
 	snake.direction <- direction
 }
 
-func (snake *Snake) Start() {
+func (snake *Snake) start() {
 
 	stop := make(chan bool)
 	starting := true
@@ -71,11 +65,11 @@ func (snake *Snake) Start() {
 
 		// Start to advance in received direction
 		go func(dir string) {
-			timer := time.Tick(time.Millisecond * 200)
+			timer := time.Tick(time.Millisecond * time.Duration(snake.velocity))
 			for {
 				select {
 				case <-timer:
-					snake.Go(dir)
+					snake.goToDirection(dir)
 				case <-stop:
 					return
 				}
@@ -86,7 +80,7 @@ func (snake *Snake) Start() {
 	}
 }
 
-func (snake *Snake) Go(direction string) {
+func (snake *Snake) goToDirection(direction string) {
 	snake.prevX, snake.prevY = snake.Position()
 	switch direction {
 	case DirectionRight:
@@ -100,6 +94,7 @@ func (snake *Snake) Go(direction string) {
 	}
 }
 
+// Collide function to reset position when hit frame
 func (snake *Snake) Collide(collision tl.Physical) {
 	// Check if it's a Rectangle we're colliding with
 	if _, ok := collision.(*tl.Rectangle); ok {
