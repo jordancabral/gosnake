@@ -1,0 +1,711 @@
+INFO : 2020/05/27 09:56:34.458249 main.go:25: I'm about to do something!
+INFO : 2020/05/27 09:57:33.924274 main.go:27: Config level
+INFO : 2020/05/27 09:57:33.924354 main.go:40: Creating Snake
+INFO : 2020/05/27 09:57:33.924375 main.go:49: Starting game..
+INFO : 2020/05/27 10:00:49.616394 main.go:27: Config level
+INFO : 2020/05/27 10:00:49.616492 main.go:40: Creating Snake
+INFO : 2020/05/27 10:00:49.616518 main.go:49: Starting game..
+INFO : 2020/05/27 10:00:50.414298 snake.go:53: Advance RIGHTtring
+INFO : 2020/05/27 10:01:19.039620 main.go:27: Config level
+INFO : 2020/05/27 10:01:19.039767 main.go:40: Creating Snake
+INFO : 2020/05/27 10:01:19.039811 main.go:49: Starting game..
+INFO : 2020/05/27 10:01:19.620259 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:01:20.539278 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:01:21.470613 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:01:48.873527 main.go:27: Config level
+INFO : 2020/05/27 10:01:48.873620 main.go:40: Creating Snake
+INFO : 2020/05/27 10:01:48.873659 main.go:49: Starting game..
+INFO : 2020/05/27 10:01:51.911537 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:01:55.030572 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:10:18.822895 main.go:27: Config level
+INFO : 2020/05/27 10:10:18.822985 main.go:40: Creating Snake
+INFO : 2020/05/27 10:10:18.823023 main.go:49: Starting game..
+INFO : 2020/05/27 10:10:18.823122 snake.go:64: Start snake
+INFO : 2020/05/27 10:10:27.302751 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:10:27.502904 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:27.702990 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:27.902934 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:28.102900 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:28.302896 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:28.502898 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:28.702902 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:28.903088 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:29.102937 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:29.302894 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:29.502897 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:29.702895 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:29.902922 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:30.102900 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:30.302900 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:30.503112 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:30.702892 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:30.902929 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:31.102945 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:31.302903 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:31.502933 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:31.702900 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:10:31.865501 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:10:31.865625 snake.go:92: Stop tick
+INFO : 2020/05/27 10:10:32.065698 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:32.265690 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:32.465698 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:32.665694 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:32.865693 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:33.065689 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:33.265689 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:33.465690 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:33.665691 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:10:33.666035 snake.go:121: Collide with rectangle
+INFO : 2020/05/27 10:10:33.666075 snake.go:58: Stop
+INFO : 2020/05/27 10:10:33.666416 snake.go:92: Stop tick
+INFO : 2020/05/27 10:11:03.300771 main.go:27: Config level
+INFO : 2020/05/27 10:11:03.300903 main.go:40: Creating Snake
+INFO : 2020/05/27 10:11:03.300938 main.go:49: Starting game..
+INFO : 2020/05/27 10:11:03.301026 snake.go:64: Start snake
+INFO : 2020/05/27 10:11:03.717557 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:11:03.917731 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:04.117723 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:04.317721 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:04.517769 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:04.717723 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:04.917724 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:05.117734 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:05.317726 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:05.517718 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:05.717727 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:05.917725 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:06.117726 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:06.317715 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:06.509095 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:11:06.509185 snake.go:92: Stop tick
+INFO : 2020/05/27 10:11:06.709297 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:06.909245 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:07.109241 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:07.309243 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:07.509242 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:07.709254 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:07.909246 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:08.109241 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:08.309247 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:08.309545 snake.go:121: Collide with rectangle
+INFO : 2020/05/27 10:11:08.309572 snake.go:58: Stop
+INFO : 2020/05/27 10:11:08.309593 snake.go:92: Stop tick
+INFO : 2020/05/27 10:11:36.920380 main.go:27: Config level
+INFO : 2020/05/27 10:11:36.920449 main.go:40: Creating Snake
+INFO : 2020/05/27 10:11:36.920469 main.go:49: Starting game..
+INFO : 2020/05/27 10:11:36.920616 snake.go:64: Start snake
+INFO : 2020/05/27 10:11:39.902948 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:11:40.103964 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:40.303949 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:40.503951 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:40.703948 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:40.903960 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:11:41.072804 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:11:41.072875 snake.go:92: Stop tick
+INFO : 2020/05/27 10:11:41.272943 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:41.472938 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:41.672938 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:41.872971 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:42.072975 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:42.272941 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:42.472935 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:42.672936 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:42.872941 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:11:42.873230 snake.go:121: Collide with rectangle
+INFO : 2020/05/27 10:11:42.873264 snake.go:58: Stop
+INFO : 2020/05/27 10:11:42.873472 snake.go:92: Stop tick
+INFO : 2020/05/27 10:11:42.873579 snake.go:121: Collide with rectangle
+INFO : 2020/05/27 10:11:42.873608 snake.go:58: Stop
+INFO : 2020/05/27 10:13:24.952827 main.go:27: Config level
+INFO : 2020/05/27 10:13:24.952967 main.go:40: Creating Snake
+INFO : 2020/05/27 10:13:24.953013 main.go:49: Starting game..
+INFO : 2020/05/27 10:13:24.953105 snake.go:64: Start snake
+INFO : 2020/05/27 10:13:26.167323 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:13:26.367754 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:26.567776 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:26.767740 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:26.967732 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:27.167731 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:27.367741 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:27.567798 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:27.767730 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:27.967737 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:28.167733 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:28.367871 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:28.567729 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:28.767731 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:28.967777 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:29.167728 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:29.367732 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:29.567734 snake.go:89: Tick to direction RIGHT
+INFO : 2020/05/27 10:13:29.676113 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:13:29.676221 snake.go:92: Stop tick
+INFO : 2020/05/27 10:13:29.876294 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:30.076280 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:30.276281 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:30.476294 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:30.676323 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:30.876286 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:31.076284 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:31.276278 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:31.476326 snake.go:89: Tick to direction DOWN
+INFO : 2020/05/27 10:13:31.476621 snake.go:121: Collide with rectangle
+INFO : 2020/05/27 10:13:31.476659 snake.go:58: Stop
+INFO : 2020/05/27 10:13:31.476696 snake.go:92: Stop tick
+INFO : 2020/05/27 10:15:26.943184 main.go:27: Config level
+INFO : 2020/05/27 10:15:26.943264 main.go:40: Creating Snake
+INFO : 2020/05/27 10:15:26.943297 main.go:49: Starting game..
+INFO : 2020/05/27 10:15:26.943321 snake.go:64: Start snake
+INFO : 2020/05/27 10:15:29.590932 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:15:29.791104 snake.go:89: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:15:29.991091 snake.go:89: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:15:30.191091 snake.go:89: Tick to direction RIGHT. Current position 11, 10
+INFO : 2020/05/27 10:15:30.391102 snake.go:89: Tick to direction RIGHT. Current position 12, 10
+INFO : 2020/05/27 10:15:30.591094 snake.go:89: Tick to direction RIGHT. Current position 13, 10
+INFO : 2020/05/27 10:15:30.791089 snake.go:89: Tick to direction RIGHT. Current position 14, 10
+INFO : 2020/05/27 10:15:30.991092 snake.go:89: Tick to direction RIGHT. Current position 15, 10
+INFO : 2020/05/27 10:15:31.191097 snake.go:89: Tick to direction RIGHT. Current position 16, 10
+INFO : 2020/05/27 10:15:31.391090 snake.go:89: Tick to direction RIGHT. Current position 17, 10
+INFO : 2020/05/27 10:15:31.591090 snake.go:89: Tick to direction RIGHT. Current position 18, 10
+INFO : 2020/05/27 10:15:31.791091 snake.go:89: Tick to direction RIGHT. Current position 19, 10
+INFO : 2020/05/27 10:15:31.991125 snake.go:89: Tick to direction RIGHT. Current position 20, 10
+INFO : 2020/05/27 10:15:32.191095 snake.go:89: Tick to direction RIGHT. Current position 21, 10
+INFO : 2020/05/27 10:15:32.391092 snake.go:89: Tick to direction RIGHT. Current position 22, 10
+INFO : 2020/05/27 10:15:32.591090 snake.go:89: Tick to direction RIGHT. Current position 23, 10
+INFO : 2020/05/27 10:15:32.791095 snake.go:89: Tick to direction RIGHT. Current position 24, 10
+INFO : 2020/05/27 10:15:32.991099 snake.go:89: Tick to direction RIGHT. Current position 25, 10
+INFO : 2020/05/27 10:15:33.191129 snake.go:89: Tick to direction RIGHT. Current position 26, 10
+INFO : 2020/05/27 10:15:33.391098 snake.go:89: Tick to direction RIGHT. Current position 27, 10
+INFO : 2020/05/27 10:15:33.591092 snake.go:89: Tick to direction RIGHT. Current position 28, 10
+INFO : 2020/05/27 10:15:33.791092 snake.go:89: Tick to direction RIGHT. Current position 29, 10
+INFO : 2020/05/27 10:15:33.991096 snake.go:89: Tick to direction RIGHT. Current position 30, 10
+INFO : 2020/05/27 10:15:34.191118 snake.go:89: Tick to direction RIGHT. Current position 31, 10
+INFO : 2020/05/27 10:15:34.391092 snake.go:89: Tick to direction RIGHT. Current position 32, 10
+INFO : 2020/05/27 10:15:34.493330 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:15:34.493451 snake.go:92: Stop tick
+INFO : 2020/05/27 10:15:34.693518 snake.go:89: Tick to direction DOWN. Current position 33, 10
+INFO : 2020/05/27 10:15:34.893657 snake.go:89: Tick to direction DOWN. Current position 34, 10
+INFO : 2020/05/27 10:15:35.093581 snake.go:89: Tick to direction DOWN. Current position 34, 11
+INFO : 2020/05/27 10:15:35.293518 snake.go:89: Tick to direction DOWN. Current position 34, 12
+INFO : 2020/05/27 10:15:35.493564 snake.go:89: Tick to direction DOWN. Current position 34, 13
+INFO : 2020/05/27 10:15:35.693508 snake.go:89: Tick to direction DOWN. Current position 34, 14
+INFO : 2020/05/27 10:15:35.893548 snake.go:89: Tick to direction DOWN. Current position 34, 15
+INFO : 2020/05/27 10:15:36.093498 snake.go:89: Tick to direction DOWN. Current position 34, 16
+INFO : 2020/05/27 10:15:36.293501 snake.go:89: Tick to direction DOWN. Current position 34, 17
+INFO : 2020/05/27 10:15:36.293879 snake.go:121: Collide with rectangle
+INFO : 2020/05/27 10:15:36.293913 snake.go:58: Stop
+INFO : 2020/05/27 10:15:36.293940 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:08.194809 main.go:27: Config level
+INFO : 2020/05/27 10:17:08.194966 main.go:40: Creating Snake
+INFO : 2020/05/27 10:17:08.195013 main.go:49: Starting game..
+INFO : 2020/05/27 10:17:08.195068 snake.go:64: Start snake
+INFO : 2020/05/27 10:17:13.237379 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:17:13.437604 snake.go:89: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:17:13.637601 snake.go:89: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:17:13.837595 snake.go:89: Tick to direction RIGHT. Current position 11, 10
+INFO : 2020/05/27 10:17:14.037597 snake.go:89: Tick to direction RIGHT. Current position 12, 10
+INFO : 2020/05/27 10:17:14.237609 snake.go:89: Tick to direction RIGHT. Current position 13, 10
+INFO : 2020/05/27 10:17:14.437594 snake.go:89: Tick to direction RIGHT. Current position 14, 10
+INFO : 2020/05/27 10:17:14.637593 snake.go:89: Tick to direction RIGHT. Current position 15, 10
+INFO : 2020/05/27 10:17:14.837596 snake.go:89: Tick to direction RIGHT. Current position 16, 10
+INFO : 2020/05/27 10:17:15.037593 snake.go:89: Tick to direction RIGHT. Current position 17, 10
+INFO : 2020/05/27 10:17:15.237638 snake.go:89: Tick to direction RIGHT. Current position 18, 10
+INFO : 2020/05/27 10:17:15.398736 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:17:15.398831 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:15.598934 snake.go:89: Tick to direction DOWN. Current position 19, 10
+INFO : 2020/05/27 10:17:15.798899 snake.go:89: Tick to direction DOWN. Current position 20, 10
+INFO : 2020/05/27 10:17:15.998896 snake.go:89: Tick to direction DOWN. Current position 20, 11
+INFO : 2020/05/27 10:17:16.198900 snake.go:89: Tick to direction DOWN. Current position 20, 12
+INFO : 2020/05/27 10:17:16.398894 snake.go:89: Tick to direction DOWN. Current position 20, 13
+INFO : 2020/05/27 10:17:16.598897 snake.go:89: Tick to direction DOWN. Current position 20, 14
+INFO : 2020/05/27 10:17:16.798896 snake.go:89: Tick to direction DOWN. Current position 20, 15
+INFO : 2020/05/27 10:17:16.998892 snake.go:89: Tick to direction DOWN. Current position 20, 16
+INFO : 2020/05/27 10:17:17.198897 snake.go:89: Tick to direction DOWN. Current position 20, 17
+INFO : 2020/05/27 10:17:17.198991 snake.go:121: Collide with rectangle. Prev position 20 10
+INFO : 2020/05/27 10:17:17.199029 snake.go:58: Stop
+INFO : 2020/05/27 10:17:17.199094 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:51.273896 main.go:27: Config level
+INFO : 2020/05/27 10:17:51.273976 main.go:40: Creating Snake
+INFO : 2020/05/27 10:17:51.273996 main.go:49: Starting game..
+INFO : 2020/05/27 10:17:51.274018 snake.go:64: Start snake
+INFO : 2020/05/27 10:17:52.074037 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:17:52.274257 snake.go:89: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:17:52.474255 snake.go:89: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:17:52.674334 snake.go:89: Tick to direction RIGHT. Current position 11, 10
+INFO : 2020/05/27 10:17:52.874296 snake.go:89: Tick to direction RIGHT. Current position 12, 10
+INFO : 2020/05/27 10:17:53.074324 snake.go:89: Tick to direction RIGHT. Current position 13, 10
+INFO : 2020/05/27 10:17:53.274262 snake.go:89: Tick to direction RIGHT. Current position 14, 10
+INFO : 2020/05/27 10:17:53.474254 snake.go:89: Tick to direction RIGHT. Current position 15, 10
+INFO : 2020/05/27 10:17:53.674255 snake.go:89: Tick to direction RIGHT. Current position 16, 10
+INFO : 2020/05/27 10:17:53.874259 snake.go:89: Tick to direction RIGHT. Current position 17, 10
+INFO : 2020/05/27 10:17:54.074252 snake.go:89: Tick to direction RIGHT. Current position 18, 10
+INFO : 2020/05/27 10:17:54.274254 snake.go:89: Tick to direction RIGHT. Current position 19, 10
+INFO : 2020/05/27 10:17:54.474250 snake.go:89: Tick to direction RIGHT. Current position 20, 10
+INFO : 2020/05/27 10:17:54.674261 snake.go:89: Tick to direction RIGHT. Current position 21, 10
+INFO : 2020/05/27 10:17:54.874262 snake.go:89: Tick to direction RIGHT. Current position 22, 10
+INFO : 2020/05/27 10:17:55.074253 snake.go:89: Tick to direction RIGHT. Current position 23, 10
+INFO : 2020/05/27 10:17:55.274284 snake.go:89: Tick to direction RIGHT. Current position 24, 10
+INFO : 2020/05/27 10:17:55.474252 snake.go:89: Tick to direction RIGHT. Current position 25, 10
+INFO : 2020/05/27 10:17:55.674260 snake.go:89: Tick to direction RIGHT. Current position 26, 10
+INFO : 2020/05/27 10:17:55.874287 snake.go:89: Tick to direction RIGHT. Current position 27, 10
+INFO : 2020/05/27 10:17:56.056908 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:17:56.056977 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:56.257068 snake.go:89: Tick to direction DOWN. Current position 28, 10
+INFO : 2020/05/27 10:17:56.457049 snake.go:89: Tick to direction DOWN. Current position 29, 10
+INFO : 2020/05/27 10:17:56.657046 snake.go:89: Tick to direction DOWN. Current position 29, 11
+INFO : 2020/05/27 10:17:56.857043 snake.go:89: Tick to direction DOWN. Current position 29, 12
+INFO : 2020/05/27 10:17:57.057043 snake.go:89: Tick to direction DOWN. Current position 29, 13
+INFO : 2020/05/27 10:17:57.257041 snake.go:89: Tick to direction DOWN. Current position 29, 14
+INFO : 2020/05/27 10:17:57.441120 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:17:57.441256 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:57.641335 snake.go:89: Tick to direction RIGHT. Current position 29, 15
+INFO : 2020/05/27 10:17:57.841377 snake.go:89: Tick to direction RIGHT. Current position 29, 16
+INFO : 2020/05/27 10:17:58.041332 snake.go:89: Tick to direction RIGHT. Current position 30, 16
+INFO : 2020/05/27 10:17:58.193887 snake.go:53: Advance UP
+INFO : 2020/05/27 10:17:58.194095 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:58.394108 snake.go:89: Tick to direction UP. Current position 31, 16
+INFO : 2020/05/27 10:17:58.594145 snake.go:89: Tick to direction UP. Current position 32, 16
+INFO : 2020/05/27 10:17:58.717743 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:17:58.717854 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:58.917939 snake.go:89: Tick to direction DOWN. Current position 32, 15
+INFO : 2020/05/27 10:17:59.117926 snake.go:89: Tick to direction DOWN. Current position 32, 14
+INFO : 2020/05/27 10:17:59.317922 snake.go:89: Tick to direction DOWN. Current position 32, 15
+INFO : 2020/05/27 10:17:59.517926 snake.go:89: Tick to direction DOWN. Current position 32, 16
+INFO : 2020/05/27 10:17:59.717921 snake.go:89: Tick to direction DOWN. Current position 32, 17
+INFO : 2020/05/27 10:17:59.718627 snake.go:121: Collide with rectangle. Prev position 32 14
+INFO : 2020/05/27 10:17:59.718658 snake.go:58: Stop
+INFO : 2020/05/27 10:17:59.718698 snake.go:92: Stop tick
+INFO : 2020/05/27 10:17:59.775507 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:22:39.515145 main.go:27: Config level
+INFO : 2020/05/27 10:22:39.515310 main.go:40: Creating Snake
+INFO : 2020/05/27 10:22:39.515384 main.go:49: Starting game..
+INFO : 2020/05/27 10:22:39.515530 snake.go:64: Start snake
+INFO : 2020/05/27 10:22:40.197700 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:22:40.397948 snake.go:91: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:22:40.597950 snake.go:91: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:22:40.797922 snake.go:91: Tick to direction RIGHT. Current position 11, 10
+INFO : 2020/05/27 10:22:40.997906 snake.go:91: Tick to direction RIGHT. Current position 12, 10
+INFO : 2020/05/27 10:22:41.197905 snake.go:91: Tick to direction RIGHT. Current position 13, 10
+INFO : 2020/05/27 10:22:41.397908 snake.go:91: Tick to direction RIGHT. Current position 14, 10
+INFO : 2020/05/27 10:22:41.597910 snake.go:91: Tick to direction RIGHT. Current position 15, 10
+INFO : 2020/05/27 10:22:41.797901 snake.go:91: Tick to direction RIGHT. Current position 16, 10
+INFO : 2020/05/27 10:22:41.997901 snake.go:91: Tick to direction RIGHT. Current position 17, 10
+INFO : 2020/05/27 10:22:42.197899 snake.go:91: Tick to direction RIGHT. Current position 18, 10
+INFO : 2020/05/27 10:22:42.397900 snake.go:91: Tick to direction RIGHT. Current position 19, 10
+INFO : 2020/05/27 10:22:42.597912 snake.go:91: Tick to direction RIGHT. Current position 20, 10
+INFO : 2020/05/27 10:22:42.797908 snake.go:91: Tick to direction RIGHT. Current position 21, 10
+INFO : 2020/05/27 10:22:42.997912 snake.go:91: Tick to direction RIGHT. Current position 22, 10
+INFO : 2020/05/27 10:22:43.197910 snake.go:91: Tick to direction RIGHT. Current position 23, 10
+INFO : 2020/05/27 10:22:43.397922 snake.go:91: Tick to direction RIGHT. Current position 24, 10
+INFO : 2020/05/27 10:22:43.597919 snake.go:91: Tick to direction RIGHT. Current position 25, 10
+INFO : 2020/05/27 10:22:43.753880 snake.go:53: Advance DOWN
+INFO : 2020/05/27 10:22:43.753972 snake.go:94: Stop tick
+INFO : 2020/05/27 10:22:43.954042 snake.go:91: Tick to direction DOWN. Current position 26, 10
+INFO : 2020/05/27 10:22:44.154039 snake.go:91: Tick to direction DOWN. Current position 27, 10
+INFO : 2020/05/27 10:22:44.354037 snake.go:91: Tick to direction DOWN. Current position 27, 11
+INFO : 2020/05/27 10:22:44.554040 snake.go:91: Tick to direction DOWN. Current position 27, 12
+INFO : 2020/05/27 10:22:44.754030 snake.go:91: Tick to direction DOWN. Current position 27, 13
+INFO : 2020/05/27 10:22:44.954034 snake.go:91: Tick to direction DOWN. Current position 27, 14
+INFO : 2020/05/27 10:22:45.154031 snake.go:91: Tick to direction DOWN. Current position 27, 15
+INFO : 2020/05/27 10:22:45.354035 snake.go:91: Tick to direction DOWN. Current position 27, 16
+INFO : 2020/05/27 10:22:45.554038 snake.go:91: Tick to direction DOWN. Current position 27, 17
+INFO : 2020/05/27 10:22:45.554448 snake.go:123: Collide with rectangle. Prev position 27 10
+INFO : 2020/05/27 10:22:45.554486 snake.go:58: Stop snake
+INFO : 2020/05/27 10:22:45.554518 snake.go:94: Stop tick
+INFO : 2020/05/27 10:22:55.260415 main.go:27: Config level
+INFO : 2020/05/27 10:22:55.260532 main.go:40: Creating Snake
+INFO : 2020/05/27 10:22:55.260573 main.go:49: Starting game..
+INFO : 2020/05/27 10:22:55.260714 snake.go:64: Start snake
+INFO : 2020/05/27 10:22:57.048553 snake.go:53: Advance LEFT
+INFO : 2020/05/27 10:22:57.248761 snake.go:91: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:22:57.448752 snake.go:91: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:22:57.648755 snake.go:91: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:22:57.848751 snake.go:91: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:22:58.048749 snake.go:91: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:22:58.248789 snake.go:91: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:22:58.448708 snake.go:91: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:22:58.648747 snake.go:91: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:22:58.648851 snake.go:123: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:22:58.648894 snake.go:58: Stop snake
+INFO : 2020/05/27 10:22:58.649492 snake.go:94: Stop tick
+INFO : 2020/05/27 10:23:01.243560 snake.go:53: Advance RIGHT
+INFO : 2020/05/27 10:23:10.913215 main.go:27: Config level
+INFO : 2020/05/27 10:23:10.913371 main.go:40: Creating Snake
+INFO : 2020/05/27 10:23:10.913420 main.go:49: Starting game..
+INFO : 2020/05/27 10:23:10.913529 snake.go:64: Start snake
+INFO : 2020/05/27 10:23:12.233627 snake.go:53: Advance LEFT
+INFO : 2020/05/27 10:23:12.433807 snake.go:91: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:23:12.633793 snake.go:91: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:23:12.833793 snake.go:91: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:23:13.033795 snake.go:91: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:23:13.233846 snake.go:91: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:23:13.433794 snake.go:91: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:23:13.633855 snake.go:91: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:23:13.833797 snake.go:91: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:23:13.833907 snake.go:123: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:23:13.833943 snake.go:58: Stop snake
+INFO : 2020/05/27 10:23:13.833978 snake.go:94: Stop tick
+INFO : 2020/05/27 10:23:18.144240 snake.go:53: Advance LEFT
+INFO : 2020/05/27 10:41:55.396982 main.go:27: Config level
+INFO : 2020/05/27 10:41:55.397104 main.go:40: Creating Snake
+INFO : 2020/05/27 10:41:55.397155 main.go:49: Starting game..
+INFO : 2020/05/27 10:41:55.397242 snake.go:66: Start snake
+INFO : 2020/05/27 10:41:59.378243 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:41:59.578507 snake.go:93: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:41:59.778461 snake.go:93: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:41:59.978465 snake.go:93: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:42:00.178460 snake.go:93: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:42:00.378508 snake.go:93: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:42:00.578475 snake.go:93: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:42:00.778455 snake.go:93: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:42:00.978508 snake.go:93: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:42:00.978830 snake.go:125: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:42:00.978859 snake.go:60: Stop snake
+INFO : 2020/05/27 10:42:00.978885 snake.go:96: Stop tick
+INFO : 2020/05/27 10:43:06.189319 main.go:27: Config level
+INFO : 2020/05/27 10:43:06.189392 main.go:40: Creating Snake
+INFO : 2020/05/27 10:43:06.189413 main.go:49: Starting game..
+INFO : 2020/05/27 10:43:06.189432 snake.go:67: Start snake
+INFO : 2020/05/27 10:43:07.999564 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:43:08.199787 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:43:08.399769 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:43:08.599769 snake.go:94: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:43:08.799766 snake.go:94: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:43:08.999767 snake.go:94: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:43:09.199797 snake.go:94: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:43:09.399766 snake.go:94: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:43:09.599771 snake.go:94: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:43:09.600134 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:43:09.600162 snake.go:60: Stop snake
+INFO : 2020/05/27 10:43:09.600181 snake.go:97: Stop tick
+INFO : 2020/05/27 10:45:04.936556 main.go:27: Config level
+INFO : 2020/05/27 10:45:04.936650 main.go:40: Creating Snake
+INFO : 2020/05/27 10:45:04.936690 main.go:54: Starting game..
+INFO : 2020/05/27 10:45:04.936715 snake.go:67: Start snake
+INFO : 2020/05/27 10:45:08.697081 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:45:08.897262 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:45:09.097346 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:45:09.297298 snake.go:94: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:45:09.497329 snake.go:94: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:45:09.697296 snake.go:94: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:45:09.897298 snake.go:94: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:45:10.097396 snake.go:94: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:45:10.297330 snake.go:94: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:45:10.297407 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:45:10.297443 snake.go:60: Stop snake
+INFO : 2020/05/27 10:45:10.297476 snake.go:97: Stop tick
+INFO : 2020/05/27 10:45:10.297501 main.go:51: Game over
+INFO : 2020/05/27 10:47:36.330419 main.go:27: Config level
+INFO : 2020/05/27 10:47:36.330527 main.go:40: Creating Snake
+INFO : 2020/05/27 10:47:36.330567 main.go:59: Starting game..
+INFO : 2020/05/27 10:47:36.330591 snake.go:67: Start snake
+INFO : 2020/05/27 10:47:36.925837 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:47:37.125981 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:47:37.325975 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:47:37.525980 snake.go:94: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:47:37.725976 snake.go:94: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:47:37.925980 snake.go:94: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:47:38.125983 snake.go:94: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:47:38.325975 snake.go:94: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:47:38.525976 snake.go:94: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:47:38.526286 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:47:38.526311 snake.go:60: Stop snake
+INFO : 2020/05/27 10:47:38.526346 snake.go:97: Stop tick
+INFO : 2020/05/27 10:47:38.526379 main.go:51: Game over
+INFO : 2020/05/27 10:49:30.388697 main.go:27: Config level
+INFO : 2020/05/27 10:49:30.388764 main.go:40: Creating Snake
+INFO : 2020/05/27 10:49:30.388794 main.go:60: Starting game..
+INFO : 2020/05/27 10:49:30.388826 snake.go:67: Start snake
+INFO : 2020/05/27 10:49:30.933354 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:49:31.133513 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:49:31.333522 snake.go:94: Tick to direction LEFT. Current position 10, 10
+INFO : 2020/05/27 10:49:31.533497 snake.go:94: Tick to direction LEFT. Current position 9, 10
+INFO : 2020/05/27 10:49:31.733515 snake.go:94: Tick to direction LEFT. Current position 8, 10
+INFO : 2020/05/27 10:49:31.933527 snake.go:94: Tick to direction LEFT. Current position 7, 10
+INFO : 2020/05/27 10:49:32.133501 snake.go:94: Tick to direction LEFT. Current position 6, 10
+INFO : 2020/05/27 10:49:32.333493 snake.go:94: Tick to direction LEFT. Current position 5, 10
+INFO : 2020/05/27 10:49:32.533672 snake.go:94: Tick to direction LEFT. Current position 4, 10
+INFO : 2020/05/27 10:49:32.533761 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:49:32.533791 snake.go:60: Stop snake
+INFO : 2020/05/27 10:49:32.533821 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:32.533845 main.go:52: Game over
+INFO : 2020/05/27 10:49:34.933645 main.go:27: Config level
+INFO : 2020/05/27 10:49:34.933750 main.go:40: Creating Snake
+INFO : 2020/05/27 10:49:34.933787 main.go:60: Starting game..
+INFO : 2020/05/27 10:49:34.933890 snake.go:67: Start snake
+INFO : 2020/05/27 10:49:35.363166 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:49:35.563366 snake.go:94: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:49:35.763350 snake.go:94: Tick to direction RIGHT. Current position 10, 10
+INFO : 2020/05/27 10:49:35.899623 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:35.899740 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:36.099812 snake.go:94: Tick to direction DOWN. Current position 11, 10
+INFO : 2020/05/27 10:49:36.299811 snake.go:94: Tick to direction DOWN. Current position 12, 10
+INFO : 2020/05/27 10:49:36.398271 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:49:36.398394 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:36.598473 snake.go:94: Tick to direction LEFT. Current position 12, 11
+INFO : 2020/05/27 10:49:36.798455 snake.go:94: Tick to direction LEFT. Current position 12, 12
+INFO : 2020/05/27 10:49:36.998471 snake.go:94: Tick to direction LEFT. Current position 11, 12
+INFO : 2020/05/27 10:49:37.198438 snake.go:94: Tick to direction LEFT. Current position 10, 12
+INFO : 2020/05/27 10:49:37.398458 snake.go:94: Tick to direction LEFT. Current position 9, 12
+INFO : 2020/05/27 10:49:37.598460 snake.go:94: Tick to direction LEFT. Current position 8, 12
+INFO : 2020/05/27 10:49:37.798457 snake.go:94: Tick to direction LEFT. Current position 7, 12
+INFO : 2020/05/27 10:49:37.994785 snake.go:55: Advance UP
+INFO : 2020/05/27 10:49:37.994933 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:38.195009 snake.go:94: Tick to direction UP. Current position 6, 12
+INFO : 2020/05/27 10:49:38.394999 snake.go:94: Tick to direction UP. Current position 5, 12
+INFO : 2020/05/27 10:49:38.595050 snake.go:94: Tick to direction UP. Current position 5, 11
+INFO : 2020/05/27 10:49:38.795080 snake.go:94: Tick to direction UP. Current position 5, 10
+INFO : 2020/05/27 10:49:38.995005 snake.go:94: Tick to direction UP. Current position 5, 9
+INFO : 2020/05/27 10:49:39.195007 snake.go:94: Tick to direction UP. Current position 5, 8
+INFO : 2020/05/27 10:49:39.209951 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:49:39.210041 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:39.410111 snake.go:94: Tick to direction RIGHT. Current position 5, 7
+INFO : 2020/05/27 10:49:39.610102 snake.go:94: Tick to direction RIGHT. Current position 5, 6
+INFO : 2020/05/27 10:49:39.810147 snake.go:94: Tick to direction RIGHT. Current position 6, 6
+INFO : 2020/05/27 10:49:39.823484 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:39.823605 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:40.023664 snake.go:94: Tick to direction DOWN. Current position 7, 6
+INFO : 2020/05/27 10:49:40.221136 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:49:40.221253 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:40.421409 snake.go:94: Tick to direction LEFT. Current position 8, 6
+INFO : 2020/05/27 10:49:40.621321 snake.go:94: Tick to direction LEFT. Current position 8, 7
+INFO : 2020/05/27 10:49:40.821321 snake.go:94: Tick to direction LEFT. Current position 7, 7
+INFO : 2020/05/27 10:49:41.021318 snake.go:94: Tick to direction LEFT. Current position 6, 7
+INFO : 2020/05/27 10:49:41.095867 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:41.095994 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:41.296168 snake.go:94: Tick to direction DOWN. Current position 5, 7
+INFO : 2020/05/27 10:49:41.496064 snake.go:94: Tick to direction DOWN. Current position 4, 7
+INFO : 2020/05/27 10:49:41.696065 snake.go:94: Tick to direction DOWN. Current position 4, 8
+INFO : 2020/05/27 10:49:41.896066 snake.go:94: Tick to direction DOWN. Current position 4, 9
+INFO : 2020/05/27 10:49:42.096061 snake.go:94: Tick to direction DOWN. Current position 4, 10
+INFO : 2020/05/27 10:49:42.120537 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:49:42.120604 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:42.253055 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:42.253147 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:42.453208 snake.go:94: Tick to direction DOWN. Current position 4, 11
+INFO : 2020/05/27 10:49:42.653203 snake.go:94: Tick to direction DOWN. Current position 4, 12
+INFO : 2020/05/27 10:49:42.853200 snake.go:94: Tick to direction DOWN. Current position 4, 13
+INFO : 2020/05/27 10:49:43.053240 snake.go:94: Tick to direction DOWN. Current position 4, 14
+INFO : 2020/05/27 10:49:43.253249 snake.go:94: Tick to direction DOWN. Current position 4, 15
+INFO : 2020/05/27 10:49:43.453201 snake.go:94: Tick to direction DOWN. Current position 4, 16
+INFO : 2020/05/27 10:49:43.559966 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:49:43.560117 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:43.760191 snake.go:94: Tick to direction RIGHT. Current position 4, 17
+INFO : 2020/05/27 10:49:43.960179 snake.go:94: Tick to direction RIGHT. Current position 4, 18
+INFO : 2020/05/27 10:49:44.160178 snake.go:94: Tick to direction RIGHT. Current position 5, 18
+INFO : 2020/05/27 10:49:44.360180 snake.go:94: Tick to direction RIGHT. Current position 6, 18
+INFO : 2020/05/27 10:49:44.435726 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:44.435835 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:44.622328 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:49:44.622448 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:44.822496 snake.go:94: Tick to direction RIGHT. Current position 7, 18
+INFO : 2020/05/27 10:49:45.022486 snake.go:94: Tick to direction RIGHT. Current position 8, 18
+INFO : 2020/05/27 10:49:45.222480 snake.go:94: Tick to direction RIGHT. Current position 9, 18
+INFO : 2020/05/27 10:49:45.418171 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:45.418263 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:45.618333 snake.go:94: Tick to direction DOWN. Current position 10, 18
+INFO : 2020/05/27 10:49:45.618697 snake.go:126: Collide with rectangle. Prev position 11 18
+INFO : 2020/05/27 10:49:45.618742 snake.go:60: Stop snake
+INFO : 2020/05/27 10:49:45.618779 main.go:52: Game over
+INFO : 2020/05/27 10:49:45.618809 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:48.040551 main.go:27: Config level
+INFO : 2020/05/27 10:49:48.040681 main.go:40: Creating Snake
+INFO : 2020/05/27 10:49:48.040726 main.go:60: Starting game..
+INFO : 2020/05/27 10:49:48.040762 snake.go:67: Start snake
+INFO : 2020/05/27 10:49:48.576371 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:49:48.776674 snake.go:94: Tick to direction DOWN. Current position 10, 10
+INFO : 2020/05/27 10:49:48.976605 snake.go:94: Tick to direction DOWN. Current position 10, 10
+INFO : 2020/05/27 10:49:49.176606 snake.go:94: Tick to direction DOWN. Current position 10, 11
+INFO : 2020/05/27 10:49:49.376603 snake.go:94: Tick to direction DOWN. Current position 10, 12
+INFO : 2020/05/27 10:49:49.576607 snake.go:94: Tick to direction DOWN. Current position 10, 13
+INFO : 2020/05/27 10:49:49.776612 snake.go:94: Tick to direction DOWN. Current position 10, 14
+INFO : 2020/05/27 10:49:49.976612 snake.go:94: Tick to direction DOWN. Current position 10, 15
+INFO : 2020/05/27 10:49:50.176666 snake.go:94: Tick to direction DOWN. Current position 10, 16
+INFO : 2020/05/27 10:49:50.376605 snake.go:94: Tick to direction DOWN. Current position 10, 17
+INFO : 2020/05/27 10:49:50.376724 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:49:50.376760 snake.go:60: Stop snake
+INFO : 2020/05/27 10:49:50.376905 snake.go:97: Stop tick
+INFO : 2020/05/27 10:49:50.376935 main.go:52: Game over
+INFO : 2020/05/27 10:49:58.115248 main.go:27: Config level
+INFO : 2020/05/27 10:49:58.115339 main.go:40: Creating Snake
+INFO : 2020/05/27 10:49:58.115363 main.go:60: Starting game..
+INFO : 2020/05/27 10:49:58.115389 snake.go:67: Start snake
+INFO : 2020/05/27 10:49:59.302076 snake.go:55: Advance UP
+INFO : 2020/05/27 10:49:59.502572 snake.go:94: Tick to direction UP. Current position 10, 10
+INFO : 2020/05/27 10:49:59.702610 snake.go:94: Tick to direction UP. Current position 10, 10
+INFO : 2020/05/27 10:49:59.902569 snake.go:94: Tick to direction UP. Current position 10, 9
+INFO : 2020/05/27 10:50:00.102564 snake.go:94: Tick to direction UP. Current position 10, 8
+INFO : 2020/05/27 10:50:00.302616 snake.go:94: Tick to direction UP. Current position 10, 7
+INFO : 2020/05/27 10:50:00.502571 snake.go:94: Tick to direction UP. Current position 10, 6
+INFO : 2020/05/27 10:50:00.702567 snake.go:94: Tick to direction UP. Current position 10, 5
+INFO : 2020/05/27 10:50:00.902565 snake.go:94: Tick to direction UP. Current position 10, 4
+INFO : 2020/05/27 10:50:00.902656 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:50:00.902692 snake.go:60: Stop snake
+INFO : 2020/05/27 10:50:00.902719 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:00.902749 main.go:52: Game over
+INFO : 2020/05/27 10:50:04.145964 main.go:27: Config level
+INFO : 2020/05/27 10:50:04.146069 main.go:40: Creating Snake
+INFO : 2020/05/27 10:50:04.146115 main.go:60: Starting game..
+INFO : 2020/05/27 10:50:04.146168 snake.go:67: Start snake
+INFO : 2020/05/27 10:50:04.827346 snake.go:55: Advance UP
+INFO : 2020/05/27 10:50:05.027549 snake.go:94: Tick to direction UP. Current position 10, 10
+INFO : 2020/05/27 10:50:05.227543 snake.go:94: Tick to direction UP. Current position 10, 10
+INFO : 2020/05/27 10:50:05.427656 snake.go:94: Tick to direction UP. Current position 10, 9
+INFO : 2020/05/27 10:50:05.627537 snake.go:94: Tick to direction UP. Current position 10, 8
+INFO : 2020/05/27 10:50:05.827577 snake.go:94: Tick to direction UP. Current position 10, 7
+INFO : 2020/05/27 10:50:06.027533 snake.go:94: Tick to direction UP. Current position 10, 6
+INFO : 2020/05/27 10:50:06.227538 snake.go:94: Tick to direction UP. Current position 10, 5
+INFO : 2020/05/27 10:50:06.255323 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:50:06.255403 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:06.455476 snake.go:94: Tick to direction RIGHT. Current position 10, 4
+INFO : 2020/05/27 10:50:06.655467 snake.go:94: Tick to direction RIGHT. Current position 10, 3
+INFO : 2020/05/27 10:50:06.855474 snake.go:94: Tick to direction RIGHT. Current position 11, 3
+INFO : 2020/05/27 10:50:07.055471 snake.go:94: Tick to direction RIGHT. Current position 12, 3
+INFO : 2020/05/27 10:50:07.255469 snake.go:94: Tick to direction RIGHT. Current position 13, 3
+INFO : 2020/05/27 10:50:07.455466 snake.go:94: Tick to direction RIGHT. Current position 14, 3
+INFO : 2020/05/27 10:50:07.655467 snake.go:94: Tick to direction RIGHT. Current position 15, 3
+INFO : 2020/05/27 10:50:07.855478 snake.go:94: Tick to direction RIGHT. Current position 16, 3
+INFO : 2020/05/27 10:50:08.055473 snake.go:94: Tick to direction RIGHT. Current position 17, 3
+INFO : 2020/05/27 10:50:08.255495 snake.go:94: Tick to direction RIGHT. Current position 18, 3
+INFO : 2020/05/27 10:50:08.455470 snake.go:94: Tick to direction RIGHT. Current position 19, 3
+INFO : 2020/05/27 10:50:08.655486 snake.go:94: Tick to direction RIGHT. Current position 20, 3
+INFO : 2020/05/27 10:50:08.855476 snake.go:94: Tick to direction RIGHT. Current position 21, 3
+INFO : 2020/05/27 10:50:09.055472 snake.go:94: Tick to direction RIGHT. Current position 22, 3
+INFO : 2020/05/27 10:50:09.255472 snake.go:94: Tick to direction RIGHT. Current position 23, 3
+INFO : 2020/05/27 10:50:09.455476 snake.go:94: Tick to direction RIGHT. Current position 24, 3
+INFO : 2020/05/27 10:50:09.655472 snake.go:94: Tick to direction RIGHT. Current position 25, 3
+INFO : 2020/05/27 10:50:09.855480 snake.go:94: Tick to direction RIGHT. Current position 26, 3
+INFO : 2020/05/27 10:50:10.055519 snake.go:94: Tick to direction RIGHT. Current position 27, 3
+INFO : 2020/05/27 10:50:10.255528 snake.go:94: Tick to direction RIGHT. Current position 28, 3
+INFO : 2020/05/27 10:50:10.455465 snake.go:94: Tick to direction RIGHT. Current position 29, 3
+INFO : 2020/05/27 10:50:10.655485 snake.go:94: Tick to direction RIGHT. Current position 30, 3
+INFO : 2020/05/27 10:50:10.755879 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:50:10.756003 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:10.956075 snake.go:94: Tick to direction DOWN. Current position 31, 3
+INFO : 2020/05/27 10:50:11.156066 snake.go:94: Tick to direction DOWN. Current position 32, 3
+INFO : 2020/05/27 10:50:11.356066 snake.go:94: Tick to direction DOWN. Current position 32, 4
+INFO : 2020/05/27 10:50:11.556068 snake.go:94: Tick to direction DOWN. Current position 32, 5
+INFO : 2020/05/27 10:50:11.756068 snake.go:94: Tick to direction DOWN. Current position 32, 6
+INFO : 2020/05/27 10:50:11.956068 snake.go:94: Tick to direction DOWN. Current position 32, 7
+INFO : 2020/05/27 10:50:12.156066 snake.go:94: Tick to direction DOWN. Current position 32, 8
+INFO : 2020/05/27 10:50:12.356065 snake.go:94: Tick to direction DOWN. Current position 32, 9
+INFO : 2020/05/27 10:50:12.438834 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:50:12.439007 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:12.639138 snake.go:94: Tick to direction RIGHT. Current position 32, 10
+INFO : 2020/05/27 10:50:12.839077 snake.go:94: Tick to direction RIGHT. Current position 32, 11
+INFO : 2020/05/27 10:50:13.039076 snake.go:94: Tick to direction RIGHT. Current position 33, 11
+INFO : 2020/05/27 10:50:13.239074 snake.go:94: Tick to direction RIGHT. Current position 34, 11
+INFO : 2020/05/27 10:50:13.439069 snake.go:94: Tick to direction RIGHT. Current position 35, 11
+INFO : 2020/05/27 10:50:13.639072 snake.go:94: Tick to direction RIGHT. Current position 36, 11
+INFO : 2020/05/27 10:50:13.839073 snake.go:94: Tick to direction RIGHT. Current position 37, 11
+INFO : 2020/05/27 10:50:14.039077 snake.go:94: Tick to direction RIGHT. Current position 38, 11
+INFO : 2020/05/27 10:50:14.239073 snake.go:94: Tick to direction RIGHT. Current position 39, 11
+INFO : 2020/05/27 10:50:14.439077 snake.go:94: Tick to direction RIGHT. Current position 40, 11
+INFO : 2020/05/27 10:50:14.639071 snake.go:94: Tick to direction RIGHT. Current position 41, 11
+INFO : 2020/05/27 10:50:14.839071 snake.go:94: Tick to direction RIGHT. Current position 42, 11
+INFO : 2020/05/27 10:50:15.039074 snake.go:94: Tick to direction RIGHT. Current position 43, 11
+INFO : 2020/05/27 10:50:15.239077 snake.go:94: Tick to direction RIGHT. Current position 44, 11
+INFO : 2020/05/27 10:50:15.439069 snake.go:94: Tick to direction RIGHT. Current position 45, 11
+INFO : 2020/05/27 10:50:15.523344 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:50:15.523783 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:15.723856 snake.go:94: Tick to direction DOWN. Current position 46, 11
+INFO : 2020/05/27 10:50:15.923850 snake.go:94: Tick to direction DOWN. Current position 47, 11
+INFO : 2020/05/27 10:50:16.123846 snake.go:94: Tick to direction DOWN. Current position 47, 12
+INFO : 2020/05/27 10:50:16.304576 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:50:16.304724 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:16.504802 snake.go:94: Tick to direction LEFT. Current position 47, 13
+INFO : 2020/05/27 10:50:16.704791 snake.go:94: Tick to direction LEFT. Current position 47, 14
+INFO : 2020/05/27 10:50:16.904909 snake.go:94: Tick to direction LEFT. Current position 46, 14
+INFO : 2020/05/27 10:50:17.104788 snake.go:94: Tick to direction LEFT. Current position 45, 14
+INFO : 2020/05/27 10:50:17.304786 snake.go:94: Tick to direction LEFT. Current position 44, 14
+INFO : 2020/05/27 10:50:17.417287 snake.go:55: Advance UP
+INFO : 2020/05/27 10:50:17.417429 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:17.617494 snake.go:94: Tick to direction UP. Current position 43, 14
+INFO : 2020/05/27 10:50:17.817493 snake.go:94: Tick to direction UP. Current position 42, 14
+INFO : 2020/05/27 10:50:18.017493 snake.go:94: Tick to direction UP. Current position 42, 13
+INFO : 2020/05/27 10:50:18.025582 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:50:18.025669 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:18.225744 snake.go:94: Tick to direction RIGHT. Current position 42, 12
+INFO : 2020/05/27 10:50:18.425736 snake.go:94: Tick to direction RIGHT. Current position 42, 11
+INFO : 2020/05/27 10:50:18.625739 snake.go:94: Tick to direction RIGHT. Current position 43, 11
+INFO : 2020/05/27 10:50:18.825736 snake.go:94: Tick to direction RIGHT. Current position 44, 11
+INFO : 2020/05/27 10:50:19.025739 snake.go:94: Tick to direction RIGHT. Current position 45, 11
+INFO : 2020/05/27 10:50:19.215828 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:50:19.215968 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:19.416036 snake.go:94: Tick to direction DOWN. Current position 46, 11
+INFO : 2020/05/27 10:50:19.616036 snake.go:94: Tick to direction DOWN. Current position 47, 11
+INFO : 2020/05/27 10:50:19.792165 snake.go:55: Advance LEFT
+INFO : 2020/05/27 10:50:19.792264 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:19.992389 snake.go:94: Tick to direction LEFT. Current position 47, 12
+INFO : 2020/05/27 10:50:20.192337 snake.go:94: Tick to direction LEFT. Current position 47, 13
+INFO : 2020/05/27 10:50:20.392324 snake.go:94: Tick to direction LEFT. Current position 46, 13
+INFO : 2020/05/27 10:50:20.592329 snake.go:94: Tick to direction LEFT. Current position 45, 13
+INFO : 2020/05/27 10:50:20.777187 snake.go:55: Advance UP
+INFO : 2020/05/27 10:50:20.777295 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:20.977419 snake.go:94: Tick to direction UP. Current position 44, 13
+INFO : 2020/05/27 10:50:21.177363 snake.go:94: Tick to direction UP. Current position 43, 13
+INFO : 2020/05/27 10:50:21.377348 snake.go:94: Tick to direction UP. Current position 43, 12
+INFO : 2020/05/27 10:50:21.506514 snake.go:55: Advance RIGHT
+INFO : 2020/05/27 10:50:21.506634 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:21.706711 snake.go:94: Tick to direction RIGHT. Current position 43, 11
+INFO : 2020/05/27 10:50:21.906696 snake.go:94: Tick to direction RIGHT. Current position 43, 10
+INFO : 2020/05/27 10:50:22.106697 snake.go:94: Tick to direction RIGHT. Current position 44, 10
+INFO : 2020/05/27 10:50:22.306696 snake.go:94: Tick to direction RIGHT. Current position 45, 10
+INFO : 2020/05/27 10:50:22.506737 snake.go:94: Tick to direction RIGHT. Current position 46, 10
+INFO : 2020/05/27 10:50:22.506805 snake.go:126: Collide with rectangle. Prev position 43 10
+INFO : 2020/05/27 10:50:22.506839 snake.go:60: Stop snake
+INFO : 2020/05/27 10:50:22.506904 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:22.506925 main.go:52: Game over
+INFO : 2020/05/27 10:50:25.148708 main.go:27: Config level
+INFO : 2020/05/27 10:50:25.148780 main.go:40: Creating Snake
+INFO : 2020/05/27 10:50:25.148802 main.go:60: Starting game..
+INFO : 2020/05/27 10:50:25.148838 snake.go:67: Start snake
+INFO : 2020/05/27 10:50:25.559705 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:50:25.760361 snake.go:94: Tick to direction DOWN. Current position 10, 10
+INFO : 2020/05/27 10:50:25.960348 snake.go:94: Tick to direction DOWN. Current position 10, 10
+INFO : 2020/05/27 10:50:26.160347 snake.go:94: Tick to direction DOWN. Current position 10, 11
+INFO : 2020/05/27 10:50:26.360350 snake.go:94: Tick to direction DOWN. Current position 10, 12
+INFO : 2020/05/27 10:50:26.560346 snake.go:94: Tick to direction DOWN. Current position 10, 13
+INFO : 2020/05/27 10:50:26.760348 snake.go:94: Tick to direction DOWN. Current position 10, 14
+INFO : 2020/05/27 10:50:26.960352 snake.go:94: Tick to direction DOWN. Current position 10, 15
+INFO : 2020/05/27 10:50:27.160348 snake.go:94: Tick to direction DOWN. Current position 10, 16
+INFO : 2020/05/27 10:50:27.360382 snake.go:94: Tick to direction DOWN. Current position 10, 17
+INFO : 2020/05/27 10:50:27.360691 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:50:27.360718 snake.go:60: Stop snake
+INFO : 2020/05/27 10:50:27.360760 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:27.360812 main.go:52: Game over
+INFO : 2020/05/27 10:50:29.720519 main.go:27: Config level
+INFO : 2020/05/27 10:50:29.720666 main.go:40: Creating Snake
+INFO : 2020/05/27 10:50:29.720721 main.go:60: Starting game..
+INFO : 2020/05/27 10:50:29.722394 snake.go:67: Start snake
+INFO : 2020/05/27 10:50:30.085387 snake.go:55: Advance UP
+INFO : 2020/05/27 10:50:30.285643 snake.go:94: Tick to direction UP. Current position 10, 10
+INFO : 2020/05/27 10:50:30.485592 snake.go:94: Tick to direction UP. Current position 10, 10
+INFO : 2020/05/27 10:50:30.685598 snake.go:94: Tick to direction UP. Current position 10, 9
+INFO : 2020/05/27 10:50:30.885595 snake.go:94: Tick to direction UP. Current position 10, 8
+INFO : 2020/05/27 10:50:31.085589 snake.go:94: Tick to direction UP. Current position 10, 7
+INFO : 2020/05/27 10:50:31.285589 snake.go:94: Tick to direction UP. Current position 10, 6
+INFO : 2020/05/27 10:50:31.485627 snake.go:94: Tick to direction UP. Current position 10, 5
+INFO : 2020/05/27 10:50:31.685600 snake.go:94: Tick to direction UP. Current position 10, 4
+INFO : 2020/05/27 10:50:31.685709 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:50:31.685747 snake.go:60: Stop snake
+INFO : 2020/05/27 10:50:31.685788 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:31.685827 main.go:52: Game over
+INFO : 2020/05/27 10:50:34.153823 main.go:27: Config level
+INFO : 2020/05/27 10:50:34.153898 main.go:40: Creating Snake
+INFO : 2020/05/27 10:50:34.153930 main.go:60: Starting game..
+INFO : 2020/05/27 10:50:34.153985 snake.go:67: Start snake
+INFO : 2020/05/27 10:50:34.504705 snake.go:55: Advance DOWN
+INFO : 2020/05/27 10:50:34.704861 snake.go:94: Tick to direction DOWN. Current position 10, 10
+INFO : 2020/05/27 10:50:34.904852 snake.go:94: Tick to direction DOWN. Current position 10, 10
+INFO : 2020/05/27 10:50:35.104853 snake.go:94: Tick to direction DOWN. Current position 10, 11
+INFO : 2020/05/27 10:50:35.304852 snake.go:94: Tick to direction DOWN. Current position 10, 12
+INFO : 2020/05/27 10:50:35.504857 snake.go:94: Tick to direction DOWN. Current position 10, 13
+INFO : 2020/05/27 10:50:35.704854 snake.go:94: Tick to direction DOWN. Current position 10, 14
+INFO : 2020/05/27 10:50:35.904897 snake.go:94: Tick to direction DOWN. Current position 10, 15
+INFO : 2020/05/27 10:50:36.104856 snake.go:94: Tick to direction DOWN. Current position 10, 16
+INFO : 2020/05/27 10:50:36.304859 snake.go:94: Tick to direction DOWN. Current position 10, 17
+INFO : 2020/05/27 10:50:36.304946 snake.go:126: Collide with rectangle. Prev position 10 10
+INFO : 2020/05/27 10:50:36.304981 snake.go:60: Stop snake
+INFO : 2020/05/27 10:50:36.305101 snake.go:97: Stop tick
+INFO : 2020/05/27 10:50:36.305129 main.go:52: Game over

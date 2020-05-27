@@ -4,6 +4,7 @@ import (
 	"time"
 
 	tl "github.com/JoelOtter/termloop"
+	"github.com/google/logger"
 )
 
 // Directions. All snake possible directions
@@ -12,6 +13,7 @@ const (
 	DirectionLeft  = "LEFT"
 	DirectionUp    = "UP"
 	DirectionDown  = "DOWN"
+	DirectionStop  = "STOP"
 )
 
 type Snake struct {
@@ -20,12 +22,14 @@ type Snake struct {
 	prevY     int
 	velocity  int // milliseconds
 	direction chan string
+	end       chan bool
 }
 
 // Snake constructor
 func newSnake(x int, y int) Snake {
 	directionChan := make(chan string)
-	snake := Snake{tl.NewEntity(x, y, 2, 2), x, y, 200, directionChan}
+	endChan := make(chan bool)
+	snake := Snake{tl.NewEntity(x, y, 2, 2), x, y, 200, directionChan, endChan}
 	go snake.start()
 	return snake
 }
@@ -48,14 +52,31 @@ func (snake *Snake) Tick(event tl.Event) {
 }
 
 func (snake *Snake) advance(direction string) {
+	logger.Infof("Advance %s", direction)
 	snake.direction <- direction
+}
+
+func (snake *Snake) stop() {
+	logger.Info("Stop snake")
+	snake.direction <- DirectionStop
+	snake.end <- true
 }
 
 func (snake *Snake) start() {
 
+	logger.Info("Start snake")
+
 	stop := make(chan bool)
 	starting := true
 	for direction := range snake.direction {
+
+		if direction == DirectionStop {
+			// Stop the advance and exit
+			stop <- true
+			close(snake.direction)
+			close(stop)
+			return
+		}
 
 		// Don't send stop message in first run
 		if !starting {
@@ -64,17 +85,21 @@ func (snake *Snake) start() {
 		}
 
 		// Start to advance in received direction
-		go func(dir string) {
-			timer := time.Tick(time.Millisecond * time.Duration(snake.velocity))
-			for {
-				select {
-				case <-timer:
-					snake.goToDirection(dir)
-				case <-stop:
-					return
+		if direction != DirectionStop {
+			go func(dir string) {
+				timer := time.Tick(time.Millisecond * time.Duration(snake.velocity))
+				for {
+					select {
+					case <-timer:
+						logger.Infof("Tick to direction %s. Current position %d, %d", direction, snake.prevX, snake.prevY)
+						snake.goToDirection(dir)
+					case <-stop:
+						logger.Info("Stop tick")
+						return
+					}
 				}
-			}
-		}(direction)
+			}(direction)
+		}
 
 		starting = false
 	}
@@ -98,6 +123,8 @@ func (snake *Snake) goToDirection(direction string) {
 func (snake *Snake) Collide(collision tl.Physical) {
 	// Check if it's a Rectangle we're colliding with
 	if _, ok := collision.(*tl.Rectangle); ok {
+		logger.Infof("Collide with rectangle. Prev position %d %d", snake.prevX, snake.prevY)
 		snake.SetPosition(snake.prevX, snake.prevY)
+		snake.stop()
 	}
 }
