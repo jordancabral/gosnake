@@ -29,7 +29,7 @@ type Snake struct {
 func newSnake(x int, y int) Snake {
 	directionChan := make(chan string)
 	endChan := make(chan bool)
-	snake := Snake{tl.NewEntity(x, y, 2, 2), x, y, 200, directionChan, endChan}
+	snake := Snake{tl.NewEntity(x, y, 1, 1), x, y, 200, directionChan, endChan}
 	go snake.start()
 	return snake
 }
@@ -121,6 +121,12 @@ func (snake *Snake) goToDirection(direction string) {
 
 // Collide function to reset position when hit frame
 func (snake *Snake) Collide(collision tl.Physical) {
+
+	if apple, ok := collision.(*Apple); ok {
+		logger.Infof("Collide with Apple")
+		apple.remove <- true
+	}
+
 	// Check if it's a Rectangle we're colliding with
 	if _, ok := collision.(*tl.Rectangle); ok {
 		logger.Infof("Collide with rectangle. Prev position %d %d", snake.prevX, snake.prevY)

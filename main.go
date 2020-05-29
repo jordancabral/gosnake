@@ -3,7 +3,9 @@ package main
 import (
 	"flag"
 	"io/ioutil"
+	"math/rand"
 	"os"
+	"time"
 
 	tl "github.com/JoelOtter/termloop"
 	"github.com/google/logger"
@@ -12,6 +14,29 @@ import (
 const logPath = "logger.log"
 
 var verbose = flag.Bool("verbose", false, "print info level logs to stdout")
+
+type Apple struct {
+	*tl.Rectangle
+	remove chan bool
+}
+
+func NewApple(x int, y int) *Apple {
+	removeChan := make(chan bool)
+	return &Apple{tl.NewRectangle(x, y, 1, 1, tl.ColorRed), removeChan}
+}
+
+func setApples(level *tl.BaseLevel) {
+	rand.Seed(time.Now().UnixNano())
+	randx := rand.Intn(48-3) + 3
+	randy := rand.Intn(18-3) + 3
+
+	apple := NewApple(randx, randy)
+	level.AddEntity(apple)
+	go func() {
+		<-apple.remove
+		level.RemoveEntity(apple)
+	}()
+}
 
 func gameOver(snake *Snake, game *tl.Game) {
 	<-snake.end
@@ -46,10 +71,9 @@ func main() {
 	game := tl.NewGame()
 	// Level Background
 	level := tl.NewBaseLevel(tl.Cell{
-		Bg: tl.ColorGreen,
-		Fg: tl.ColorBlack,
+		Bg: tl.ColorBlack,
 	})
-	// Game Frame
+	// Game Frame  y: 3 a 48, x 3 a
 	level.AddEntity(tl.NewRectangle(1, 1, 50, 2, tl.ColorBlue))
 	level.AddEntity(tl.NewRectangle(1, 3, 2, 19, tl.ColorBlue))
 	level.AddEntity(tl.NewRectangle(1, 20, 50, 2, tl.ColorBlue))
@@ -59,10 +83,12 @@ func main() {
 	// Snake character creation
 	snake := newSnake(10, 10)
 	// Set the character at position (0, 0) on the entity.
-	snake.SetCell(0, 0, &tl.Cell{Fg: tl.ColorRed, Ch: '█'})
+	snake.SetCell(0, 0, &tl.Cell{Fg: tl.ColorGreen, Ch: '█'})
 	level.AddEntity(&snake)
 
 	game.Screen().SetLevel(level)
+
+	go setApples(level)
 
 	// Game over
 	go gameOver(&snake, game)
