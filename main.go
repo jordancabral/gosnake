@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"io/ioutil"
 	"os"
 
 	tl "github.com/JoelOtter/termloop"
@@ -12,25 +13,42 @@ const logPath = "logger.log"
 
 var verbose = flag.Bool("verbose", false, "print info level logs to stdout")
 
+func gameOver(snake *Snake, game *tl.Game) {
+	<-snake.end
+	logger.Info("Game over")
+	gameOverLevel := tl.NewBaseLevel(tl.Cell{
+		Bg: tl.ColorRed,
+		Fg: tl.ColorBlack,
+	})
+
+	game.Screen().SetLevel(gameOverLevel)
+
+	dat, err := ioutil.ReadFile("gameover.txt")
+	if err != nil {
+		panic(err)
+	}
+	e := tl.NewEntityFromCanvas(1, 1, tl.CanvasFromString(string(dat)))
+	game.Screen().AddEntity(e)
+}
+
 func main() {
 
-	// Log config
+	// ######################## Log config
 	lf, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0660)
 	if err != nil {
 		logger.Fatalf("Failed to open log file: %v", err)
 	}
 	defer lf.Close()
 	defer logger.Init("LoggerExample", *verbose, true, lf).Close()
+	// ######################## Log config
 
+	logger.Info("Configuring level")
 	game := tl.NewGame()
-
-	logger.Info("Config level")
 	// Level Background
 	level := tl.NewBaseLevel(tl.Cell{
 		Bg: tl.ColorGreen,
 		Fg: tl.ColorBlack,
 	})
-
 	// Game Frame
 	level.AddEntity(tl.NewRectangle(1, 1, 50, 2, tl.ColorBlue))
 	level.AddEntity(tl.NewRectangle(1, 3, 2, 19, tl.ColorBlue))
@@ -47,15 +65,7 @@ func main() {
 	game.Screen().SetLevel(level)
 
 	// Game over
-	go func() {
-		<-snake.end
-		logger.Info("Game over")
-		gameOverLevel := tl.NewBaseLevel(tl.Cell{
-			Bg: tl.ColorRed,
-			Fg: tl.ColorBlack,
-		})
-		game.Screen().SetLevel(gameOverLevel)
-	}()
+	go gameOver(&snake, game)
 
 	logger.Info("Starting game..")
 	game.Start()
